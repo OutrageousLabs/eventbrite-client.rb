@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<eventbrite-client>, [">= 0"])
       s.add_development_dependency(%q<rspec>, ["~> 1.3.0"])
       s.add_runtime_dependency(%q<httparty>, ["~> 0.13.1"])
-      s.add_runtime_dependency(%q<tzinfo>, ["~> 1.1.0"])
+      s.add_runtime_dependency(%q<tzinfo>, [">= 0"])
     else
       s.add_dependency(%q<eventbrite-client>, [">= 0"])
       s.add_dependency(%q<httparty>, ["~> 0.13.1"])
